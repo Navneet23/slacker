@@ -1,0 +1,4 @@
+
+
+Manage all the slack bots and their API Tokens at
+http://myntra.slack.com/apps/manage/A0F7YS25R-bots
