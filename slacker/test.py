@@ -6,7 +6,7 @@ print "API token is %s"  %  (SLACK_API_TOKEN)
 slack = Slacker(SLACK_API_TOKEN)
 
 # Send a message to #general channel
-slack.chat.post_message('#testchannel', 'Hello fellow slackers!', as_user=True)
+slack.chat.post_message('#testinbot', 'Hello fellow slackers!', as_user=True)
 
 # Get users list
 response = slack.users.list()
